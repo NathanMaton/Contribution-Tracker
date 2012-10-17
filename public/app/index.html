@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Search</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+
+
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+  <link rel="apple-touch-startup-image" href="http://sample.usembassy.gov/sh_320x460.jpg">
+
+</head>
+<body>
+   <div id="navbarid" class="navbar navbar-inverse">
+	<h1>What did my contribution get me?</h1>
+   </div>
+   <div class="hero-unit" id="description">
+		This search tool finds every contribution from a person or organization to Obama and Romney, and shows on a second line the number of times that candidate mentioned them (Mention Frequency Index).
+   </div>
+  <div id="ngviewid" ng-view></div>
+   <div id="Obama"></div>
+   <div id="Romney"></div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  -->
+  <!-- adding highcharts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="../highcharts/js/highcharts.js"/></script>
+  <script src="js/createcharts.js"/></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-sanitize.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script type="text/javascript">
+  	//createChart();
+  </script>
+</body>
+</html>

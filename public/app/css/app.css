@@ -1,0 +1,62 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+#Obama, #Romney {
+  float: left;
+ }
+
+#btnfix {
+position: relative;
+top: -4.3px;
+}
+
+#navbarid{
+color:white;
+padding-left:5px;
+padding-bottom:5px;
+background-color:black;
+margin-bottom:10px;
+}
+
+#ngviewid {
+padding-left:10px;
+}
+
+#description{
+padding-left: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-right: 10px;
+margin-left: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+font-size: 16px;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "wapohack",
+  "version": "0.0.1-19",
+  "description": "a weekend election hackathon",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:nathanmaton2/wapohack.git"
+  },
+  "keywords": [
+    "washington",
+    "post",
+    "npr",
+    "sunlightlabs",
+    "elections"
+  ],
+  "author": "John Lancaster, Jami Ansell, Nathan Maton, Josh Snider",
+  "license": "BSD",
+  "dependencies": {
+    "event-stream": "~3.0.7",
+    "JSONStream": "~0.4.2",
+    "express": "3.0.0rc4",
+    "jade": "*",
+    "async": "~0.1.22",
+    "request": "~2.11.4",
+    "elasticsearchclient": "~0.2.2"
+  },
+  "subdomain": "jlank.wapohack",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
